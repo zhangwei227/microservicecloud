@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-client # 表示从github上读取的资源文件名称，没有yml后缀
+      profile: dev
+      label: master
+      uri: http://config-3344.com:3344
+
+logging:
+  level: trace
